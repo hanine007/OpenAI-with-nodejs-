@@ -3,7 +3,9 @@ import OpenAI from "openai";
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 })
-const resulet =await openai.chat.completions.create({
+
+const result =await openai.chat.completions.create({
+   
     model:'gpt-3.5-turbo',
     messages:[{
         role:'system',
@@ -15,4 +17,4 @@ const resulet =await openai.chat.completions.create({
     },
             ]
 }) 
-console.log(result.choices[0])
+console.log(result.choices[0].message.content)
