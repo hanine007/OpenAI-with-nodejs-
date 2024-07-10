@@ -20,7 +20,8 @@ This project implements a simple command-line chatbot using Node.js and the Open
     npm install dotenv
 
 ## Usage 
-1 . node chat.js
+```bash 
+ node chat.js
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
