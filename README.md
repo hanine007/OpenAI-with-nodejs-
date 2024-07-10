@@ -12,10 +12,15 @@ This project implements a simple command-line chatbot using Node.js and the Open
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/hanine007/OpenAI-with-nodejs-.git
    cd your-repo
 2.  Install the dependencies
     ```bash 
     npm install
     npm install dotenv
-    
+
+## Usage 
+1 . node chat.js
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
