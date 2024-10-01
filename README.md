@@ -1,3 +1,7 @@
+![Node.js](https://img.shields.io/badge/Node.js-18.0-green)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)
+![dotenv](https://img.shields.io/badge/dotenv-Environment%20Variables-lightgrey)
+
 # Node.js Chatbot with OpenAI
 
 This project implements a simple command-line chatbot using Node.js and the OpenAI API to generate responses.
